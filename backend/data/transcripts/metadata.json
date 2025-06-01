@@ -1,0 +1,11 @@
+{
+  "f688c7a5-0cac-4ccf-885b-8b87ea09f5e8_20250520_101512": {
+    "bot_id": "f688c7a5-0cac-4ccf-885b-8b87ea09f5e8",
+    "meeting_id": "f688c7a5-0cac-4ccf-885b-8b87ea09f5e8_20250520_101512",
+    "timestamp": "2025-05-20T10:15:12.491813",
+    "duration": 9.0,
+    "num_speakers": 2,
+    "recording_path": null,
+    "transcript_path": "data/transcripts/f688c7a5-0cac-4ccf-885b-8b87ea09f5e8_20250520_101512_transcript.json"
+  }
+}

@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "meetingbaas_pipecat"
+version = "0.1.0"
+description = "A bot that uses MeetingBaas APIs and pipecat's WebsocketServerTransport to join and actively participate in online meetings."
+authors = ["Anirudh Sriram <hello@techwithanirudh.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "meetingbaas_pipecat"}]
+
+[tool.poetry.scripts]
+bot = "meetingbaas_pipecat.bot.bot:start"
+proxy = "meetingbaas_pipecat.proxy.proxy:start"
+meetingbaas = "scripts.meetingbaas:main"
+parallel = "scripts.parallel:main"
+api = "api:start_server"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+pipecat-ai = {extras = ["cartesia", "daily", "deepgram", "openai", "silero", "websocket"], version = "^0.0.63"}
+ruff = "^0.7.3"
+pytz = "^2024.2"
+aiohttp = "^3.10.10"
+aiofiles = "^23.2.1"
+ngrok = "^1.4.0"
+loguru = "^0.7.2"
+replicate = "^0.22.0"
+fastapi = ">=0.115.0,<0.116.0"
+uvicorn = "^0.27.1"
+websockets = ">=13.1,<14.0"
+pyyaml = "^6.0"
+requests = "^2.31.0"
+daily = "^0.2.1"
+dotenv = "^0.9.9"
+
+[tool.poetry.group.dev.dependencies]
+grpcio-tools = ">=1.67.0,<2.0.0"
+ipdb = "^0.13.13"
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

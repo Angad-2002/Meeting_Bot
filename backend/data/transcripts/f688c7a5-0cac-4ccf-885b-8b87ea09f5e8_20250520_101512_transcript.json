@@ -1,0 +1,100 @@
+{
+  "bot_id": "f688c7a5-0cac-4ccf-885b-8b87ea09f5e8",
+  "mp4": "https://example.com/test-recording.mp4",
+  "speakers": [
+    "Meeting Bot",
+    "User"
+  ],
+  "transcript": [
+    {
+      "speaker": "Meeting Bot",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.5,
+          "word": "Hello"
+        },
+        {
+          "start": 0.6,
+          "end": 1.0,
+          "word": "everyone"
+        },
+        {
+          "start": 1.1,
+          "end": 1.5,
+          "word": "welcome"
+        },
+        {
+          "start": 1.6,
+          "end": 2.0,
+          "word": "to"
+        },
+        {
+          "start": 2.1,
+          "end": 2.5,
+          "word": "the"
+        },
+        {
+          "start": 2.6,
+          "end": 3.0,
+          "word": "meeting"
+        }
+      ]
+    },
+    {
+      "speaker": "User",
+      "words": [
+        {
+          "start": 4.0,
+          "end": 4.5,
+          "word": "Thanks"
+        },
+        {
+          "start": 4.6,
+          "end": 5.0,
+          "word": "for"
+        },
+        {
+          "start": 5.1,
+          "end": 5.5,
+          "word": "joining"
+        },
+        {
+          "start": 5.6,
+          "end": 6.0,
+          "word": "us"
+        },
+        {
+          "start": 6.1,
+          "end": 6.5,
+          "word": "today"
+        }
+      ]
+    },
+    {
+      "speaker": "Meeting Bot",
+      "words": [
+        {
+          "start": 7.0,
+          "end": 7.5,
+          "word": "Happy"
+        },
+        {
+          "start": 7.6,
+          "end": 8.0,
+          "word": "to"
+        },
+        {
+          "start": 8.1,
+          "end": 8.5,
+          "word": "be"
+        },
+        {
+          "start": 8.6,
+          "end": 9.0,
+          "word": "here"
+        }
+      ]
+    }
+  ]
+}

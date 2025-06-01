@@ -1,0 +1,12 @@
+version: "3"
+
+agent:
+    authtoken: YOUR_AUTH_TOKEN
+
+tunnels:
+  proxy1:
+    proto: http
+    addr: 8766
+  proxy2:
+    proto: http
+    addr: 8768
