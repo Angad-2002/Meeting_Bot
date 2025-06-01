@@ -20,7 +20,6 @@ import {
   useTheme,
   CircularProgress,
   OutlinedInput,
-  LoadingButton,
 } from '@mui/material';
 import { motion } from 'framer-motion';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -288,7 +287,7 @@ function PersonaEditor() {
                     />
                   </Box>
 
-                  <LoadingButton
+                  <Button
                     variant="contained"
                     component="label"
                     startIcon={<AddPhotoAlternateIcon />}
@@ -308,7 +307,7 @@ function PersonaEditor() {
                       accept="image/*"
                       onChange={handleImageUpload}
                     />
-                  </LoadingButton>
+                  </Button>
 
                   <IconButton
                     color="error"
@@ -353,7 +352,7 @@ function PersonaEditor() {
                   </Typography>
 
                   <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
-                    <LoadingButton
+                    <Button
                       variant="contained"
                       component="label"
                       startIcon={<AddPhotoAlternateIcon />}
@@ -367,7 +366,7 @@ function PersonaEditor() {
                         accept="image/*"
                         onChange={handleImageUpload}
                       />
-                    </LoadingButton>
+                    </Button>
 
                     <Button
                       variant="outlined"
